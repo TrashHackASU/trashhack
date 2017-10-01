@@ -21,7 +21,7 @@ def scrapeImages(url, myPath, start):
 
             print r
             if r == 200:
-                fullfilename = os.path.join(myPath, str(pic_num)+"300.jpg")
+                fullfilename = os.path.join(myPath, str(pic_num)+".jpg")
                 urllib.urlretrieve(i, fullfilename)
                 pic_num += 1
 
@@ -30,8 +30,8 @@ def scrapeImages(url, myPath, start):
             break
 
 
-URL = "http://image-net.org/api/text/imagenet.synset.geturls?wnid=n04591713"
-Path_to_Folder = "Photos/Glass_Bottles"
-Start_Index = 240
+URL = ""
+Path_to_Folder = ""
+Start_Index = 3
 
 scrapeImages(URL, Path_to_Folder, Start_Index)

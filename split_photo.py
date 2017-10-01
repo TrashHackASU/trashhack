@@ -1,7 +1,7 @@
 from math import sqrt, ceil, floor
 from PIL import Image
 
-image = Image.open("recyclables1.jpg")
+image = Image.open("")
 image.show()
 
 def slice(filename, number_tiles):
@@ -32,4 +32,4 @@ def calculateColumnsRows(parts):
     numRows = int(ceil(parts / float(numColumns)))
     return (numColumns, numRows)
 
-slice("recyclables1.jpg", 8)
+slice("", )
