@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.0.1 (swiftlang-900.0.66 clang-900.0.37)"
-options: "ce6093f61fe0e70c32222093e9b8f373"
-build_time: [1506888578, 933892000]
-inputs:
-  "/Users/Scott/Documents/Trashhacks/Recyclense/Recyclense/ViewController.swift": [1506888578, 0]
-  "/Users/Scott/Documents/Trashhacks/Recyclense/Recyclense/AppDelegate.swift": [1506821290, 0]
