@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13526" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13524"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Recyclense" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TOX-St-NaL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="📷" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wa8-An-ewq">
+                                <rect key="frame" x="3" y="247" width="372" height="165"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Wa8-An-ewq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="227" id="DVn-fz-wPc"/>
+                            <constraint firstItem="TOX-St-NaL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="P1y-xk-qOQ"/>
+                            <constraint firstItem="Wa8-An-ewq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="3" id="bVy-ZM-3EG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Wa8-An-ewq" secondAttribute="bottom" constant="255" id="q2J-jm-x0h"/>
+                            <constraint firstItem="TOX-St-NaL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="qd2-8a-iPE"/>
+                            <constraint firstItem="TOX-St-NaL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="vow-nf-w8Q"/>
+                            <constraint firstItem="Wa8-An-ewq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wQO-hR-TaR"/>
+                            <constraint firstItem="TOX-St-NaL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="y0o-20-bqY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="TOX-St-NaL" id="pCT-fc-4I0"/>
+                        <outlet property="statusEmoji" destination="Wa8-An-ewq" id="k3Y-2I-rRG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
